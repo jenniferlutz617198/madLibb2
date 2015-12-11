@@ -9,16 +9,14 @@
 import UIKit
 
 class firstViewController: UIViewController {
+    
+    var newWordInFirstViewerController = madLib(Noun: "frog" , Adjective: "fuzzy", Verb: "swimming")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if (segue.identifier) == ("segueText")
-        var noun = segue.destinationViewController as secondViewerController
-        noun.toPass = textField.text
-        
         
     }
     }

@@ -22,7 +22,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xHx-b9-3wz">
-                                <rect key="frame" x="243" y="270" width="97" height="30"/>
+                                <rect key="frame" x="252" y="270" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -33,6 +33,7 @@
                     <connections>
                         <outlet property="myButtonFirst" destination="jgZ-J7-uhR" id="hee-qg-2we"/>
                         <outlet property="myFirstButton" destination="jgZ-J7-uhR" id="7GV-VU-jbQ"/>
+                        <outlet property="nounTextField" destination="xHx-b9-3wz" id="3mf-l7-v1t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

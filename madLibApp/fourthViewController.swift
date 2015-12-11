@@ -9,20 +9,10 @@
 import UIKit
 
 class fourthViewController: UIViewController {
-        var story = Story()
-    var subNoun: String
-    var subVerb: String
-    var subAdjective: String
-    
-    @IBOutlet weak var storyDisplay: UITextField!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        story.noun = noun
-        story.verb = verb
-        story.adjective = adjective
-        storyDisplay.text = story.randomStory
-
         
     }
 

@@ -7,11 +7,28 @@
 //
 
 import Foundation
-public class madLib{
+ class madLib{
     var noun: String = " "
     var verb: String = " "
     var adjective: String =  " "
+    
+    init()
+    {
+        noun = "dog"
+        verb = "running"
+        adjective = "furry"
+    
+    }
+    
+    init(Noun N:String, Adjective A:String, Verb V:String )
+    {
+        noun = N
+        verb = V
+        adjective = A
+    }
+        
+    
 }
 
-var myword = madLib()
+
 

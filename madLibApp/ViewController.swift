@@ -9,18 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var myButtonFirst: UIButton!
-
     
+    var newWordInViewerController = madLib(Noun: "frog" , Adjective: "fuzzy", Verb: "swimming")
     override func viewDidLoad() {
         super.viewDidLoad()
-        myButtonFirst.backgroundColor?.description.isEmpty.hashValue
-            
-        }
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let next = segue.destinationViewController as! secondViewerController
-    }
         
-        }
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let next = segue.destinationViewController as! firstViewController
+        next.newWord = newWordInViewerController
+        
+    }
+}
 
 

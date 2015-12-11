@@ -9,7 +9,7 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +18,7 @@ class secondViewController: UIViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let next = segue.destinationViewController as! thirdViewerController
+        next.newWor
     }
     
     }
